@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\Website\Bin\EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -43,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Bill.cs" />
     <Compile Include="BillItem.cs" />
+    <Compile Include="DAL\DAL.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="MenuCategory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
