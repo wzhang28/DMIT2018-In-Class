@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity;
 
-namespace Entities
+namespace Entities.DAL
 {
     // : DbContext means that my class ingerits from th ebContext class
     internal class RestaurantContext : DbContext
