@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bill.cs" />
+    <Compile Include="BillItem.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="MenuCategory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
