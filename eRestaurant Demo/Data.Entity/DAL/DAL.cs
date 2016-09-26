@@ -9,6 +9,7 @@ using System.Web.UI.WebControls;
 
 namespace Data.Entity
 {
+    // : DbContext means that my class ingerits from th ebContext class
     internal class RestaurantContext : DbContext
     {
         public RestaurantContext() : base("name=EatIn") { }
