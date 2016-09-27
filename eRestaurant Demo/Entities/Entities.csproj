@@ -46,7 +46,9 @@
   <ItemGroup>
     <Compile Include="Bill.cs" />
     <Compile Include="BillItem.cs" />
+    <Compile Include="BLL\MenuController.cs" />
     <Compile Include="DAL\DAL.cs" />
+    <Compile Include="Dtos\CategoryWithItems.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="MenuCategory.cs" />
     <Compile Include="Procos\MenuItem.cs" />
