@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website(1)", "Website\", "{424BBFC3-32E3-48E7-82D7-13FFA5D87683}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website(1)", "Website\", "{F0CCED84-D63A-44D6-8CDE-802DA6EB265A}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
 		ProjectReferences = "{5f11f5fb-1505-4673-a1ba-388bbf971e81}|Chinook.Framework.dll;"
@@ -22,6 +22,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website(1)", "Website\", "{
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "12501"
+		SlnRelativePath = "Website\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
@@ -33,10 +34,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{424BBFC3-32E3-48E7-82D7-13FFA5D87683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{424BBFC3-32E3-48E7-82D7-13FFA5D87683}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{424BBFC3-32E3-48E7-82D7-13FFA5D87683}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{424BBFC3-32E3-48E7-82D7-13FFA5D87683}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F0CCED84-D63A-44D6-8CDE-802DA6EB265A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0CCED84-D63A-44D6-8CDE-802DA6EB265A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0CCED84-D63A-44D6-8CDE-802DA6EB265A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0CCED84-D63A-44D6-8CDE-802DA6EB265A}.Release|Any CPU.Build.0 = Debug|Any CPU
 		{5F11F5FB-1505-4673-A1BA-388BBF971E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5F11F5FB-1505-4673-A1BA-388BBF971E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F11F5FB-1505-4673-A1BA-388BBF971E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
