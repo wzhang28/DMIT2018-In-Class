@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNet.Identity;
+﻿using Chinook.Framework.BLL.Scurity;
+using Chinook.Framework.Entities.Security;
+using Microsoft.AspNet.Identity;
 using System;
 using System.Linq;
 using System.Web.UI;
